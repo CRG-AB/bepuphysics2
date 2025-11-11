@@ -9,6 +9,7 @@
     <!-- CS1591 Missing XML comment for publicly visible type or member -->
     <!-- CA2014 Stackalloc in loop -->
     <NoWarn>1573;1591;CA2014</NoWarn>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
 
   <Import Project="..\CommonSettings.props" />
